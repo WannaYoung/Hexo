@@ -1,0 +1,201 @@
+# Header
+menu:
+  Home: .
+  Archives: archives
+  Categories: categories
+  Tags: tags
+  Repository: repository
+  Books: books     #This is your books page
+  Links: links
+  About: about
+rss: /atom.xml
+
+# Enable/Disable menu icons.
+# Icon Mapping:
+#   Map a menu item to a specific FontAwesome icon name.
+#   Key is the name of menu item and value is the name of FontAwesome icon. Key is case-senstive.
+#   When an question mask icon presenting up means that the item has no mapping icon.
+menu_icons:
+  enable: true
+  #KeyMapsToMenuItemKey: NameOfTheIconFromFontAwesome
+  home: fa-dashboard
+  archives: fa-delicious
+  categories: fa-folder
+  tags: fa-tags
+  repository: fa-code
+  books: fa-leanpub
+  links: fa-gg
+  about: fa-coffee
+  sitemap: sitemap
+
+# Site
+site:
+  logo:
+    enabled: true
+    width: 40
+    height: 40
+    url: ../images/logo.png
+  title: WannaYoung # 页面title
+  favicon: images/logo.png
+  board: <p>欢迎交流与分享经验!</p> # 站点公告
+  copyright: WannaYoung - iOS Developer # 底部版权信息
+
+# Customize
+customize: 
+  highlight: github # github, monokai
+  thumbnail: false # enable posts thumbnail, options: true, false
+
+# Content
+excerpt_link: Read More
+fancybox: true
+
+# Search
+search:
+  insight: true # you need to install `hexo-generator-json-content` before using Insight Search
+  swiftype: # enter swiftype install key here
+  baidu: false # you need to disable other search engines to use Baidu search, options: true, false
+
+# profile
+profile:
+  enabled: true # Whether to show profile bar
+  avatar: images/avatar.jpg
+  gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
+  author: WannaYoung
+  author_title: iOS Developer
+  author_description: 喜欢新事物，关注前端动态，对新的技术有追求； 喜欢产品，喜欢设计，喜欢 coding。
+  location: Shanghai, China
+  follow: https://github.com/WannaYoung
+  # Social Links
+  social:
+    links:
+      github: https://github.com/WannaYoung
+      weibo: http://weibo.com/cofess
+      twitter: https://twitter.com/iwebued
+      # facebook: /
+      # dribbble: /
+      behance: https://www.behance.net/cofess
+      rss: feed.xml
+    link_tooltip: true # enable the social link tooltip, options: true, false
+  # My Skills 
+  skills:
+    Git: ★★★☆☆
+    Gulp: ★★★☆☆
+    Javascript: ★★★☆☆
+    HTML+CSS: ★★★☆☆
+    Bootstrap: ★★★☆☆
+    ThinkPHP: ★★★☆☆
+    平面设计: ★★★☆☆
+  # My Personal Links
+  links:
+    Github: github.com/WannaYoung
+    Blog: blog.cofess.com
+    微博: /weibo.com/cofess
+    花瓣: huaban.com/cofess
+    Behance: behance.net/cofess
+  # My Personal Projects
+  projects:
+    cofess/gulp-startpro: https://github.com/cofess/gulp-startpro
+    cofess/hexo-theme-pure: https://github.com/cofess/hexo-theme-pure
+
+# Layout
+layout:
+
+# Pagination
+pagination:
+  number: true
+  prev: 
+    alwayShow: true
+  next:
+    alwayShow: true
+
+# Donate
+donate:
+ enable: true
+ weipay:
+  image: images/donate/weipay.jpg
+  qrcode: images/donate/weipayimg.png
+  title: 微信支付
+ alipay: 
+  image: images/donate/alipay.jpg
+  qrcode: images/donate/alipayimg.png 
+  title: 支付宝
+
+# Share
+# weibo,qq,qzone,wechat,tencent,douban,diandian,facebook,twitter,google,linkedin
+share:
+  enable: true
+  sites: weibo,qq,wechat,facebook,twitter 
+  mobile_sites: weibo,qq,qzone
+
+# Sidebar
+sidebar: right
+widgets:
+    - board  
+    - category
+    - tag
+#    - tagcloud
+    - archive
+    - recent_posts
+
+# Github
+github: 
+  username: WannaYoung
+  popular_repos: [gulp-startkit,gulp-startpro]
+
+# Gitment
+# Introduction: https://imsun.net/posts/gitment-introduction/
+gitment:
+  enable: true
+  githubID: WannaYoung
+  repo: WannaYoung.github.io
+  ClientID: 96802b6173812fa8dd4d
+  ClientSecret: ce227fa1bb987342f9c63e4ad10c4929ca87545e
+  lazy: false
+
+# douban 豆瓣书单
+# Api：
+  # https://developers.douban.com/wiki/?title=book_v2 图书
+  # https://developers.douban.com/wiki/?title=movie_v2 电影
+# books：  
+  # https://api.douban.com/v2/book/user/:name/collections?start=0&count=100 个人书单列表
+# movies: 
+  # https://api.douban.com/v2/movie/in_theaters 正在上映的电影
+  # https://api.douban.com/v2/movie/coming_soon 即将上映的电影
+  # https://api.douban.com/v2/movie/subject/:id 单个电影信息
+  # https://api.douban.com/v2/movie/search?q={text} 电影搜索
+douban:
+  user: wannayoung # 豆瓣用户名
+  start: 0 # 从哪一条记录开始
+  count: 100 # 获取豆瓣书单数据条数
+  
+# PV
+pv:
+  busuanzi:
+    enable: true # options: true, false # 不蒜子统计
+  leancloud:
+    enable: false # options: true, false # leancloud统计
+    app_id: 9XhaAqdAQpx9cRNSRLfgfO0U-gzGzoHsz # leancloud <AppID>
+    app_key: yfPEhch9cH6CpTx9cplMeRTh # leancloud <AppKey>
+        
+# wordcount
+postCount:
+  enable: true
+  wordcount: true # options: true, false # 文章字数统计
+  min2read: true # options: true, false # 阅读时长预计         
+
+# display widgets at the bottom of index pages (pagination == 2)
+index_widgets:
+    - category
+    - tagcloud
+    - archive
+
+# widget behavior
+archive_type: 'monthly'
+show_count: true
+
+# Miscellaneous
+google_analytics:
+twitter:
+google_plus:
+fb_admins:
+fb_app_id:

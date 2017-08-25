@@ -1,0 +1,17 @@
+<article class="article article-type-<%= post.layout %>">
+  <header class="article-header">
+    <%- partial('post/title', {class_name: 'article-title'}) %>
+  </header>
+  <% if (post.excerpt){ %>
+  <div class="article-entry text-muted">
+    <%- post.excerpt %>
+  </div>
+  <% } %>
+  <p class="article-meta">
+    <%- partial('post/date', {class_name: 'article-date', date_format: 'MMM D'}) %>
+    <%- partial('post/category') %>
+    <%- partial('post/tag') %>
+    <span class="post-comment"><i class="fa fa-commenting-o"></i> <a href="<%- url_for(post.path) %>#comments" class="article-comment-link"><%= __('article.comments') %></a></span>
+    <%- partial('post/wordcount') %>
+  </p>
+</article>
