@@ -81,8 +81,9 @@ deploy:
   #repo: http://github.com/dandan52111314/dandan52111314.github.io.git
   #branch: master
   type: sftp
-  host: 23.105.205.126
+  host: 67.216.223.200
   user: root
-  pass: 74xXtefkuCLT
+  privateKey: /Users/yang/Desktop/Hexo/key
+  passphrase: "741113"
   remotePath: /var/www/blog
-  port: 26781
+  port: 28957

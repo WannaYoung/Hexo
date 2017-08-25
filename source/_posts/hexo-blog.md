@@ -12,7 +12,7 @@ tags:
 
 Node.js环境和Git
 
-	
+​	
 
 	 <!-- more -->
 
@@ -68,7 +68,7 @@ feed:
 ## sitemap站点地图
 命令行切换到hexo博客根目录，分别用下面两个命令来安装针对谷歌和百度的sitemap插件
 
-```
+```shell
 npm install hexo-generator-sitemap --save
 npm install hexo-generator-baidu-sitemap --save
 ```
