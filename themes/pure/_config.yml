@@ -41,7 +41,7 @@ site:
   copyright: WannaYoung - iOS Developer # 底部版权信息
 
 # Customize
-customize: 
+customize:
   highlight: github # github, monokai
   thumbnail: false # enable posts thumbnail, options: true, false
 
@@ -62,7 +62,7 @@ profile:
   gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
   author: WannaYoung
   author_title: iOS Developer
-  author_description: 喜欢新事物，关注前端动态，对新的技术有追求； 喜欢产品，喜欢设计，喜欢 coding。
+  author_description: 喜欢新事物，关注iOS开发动态，对新的技术有追求； 喜欢产品，喜欢设计，喜欢 coding。
   location: Shanghai, China
   follow: https://github.com/WannaYoung
   # Social Links
@@ -74,9 +74,9 @@ profile:
       # facebook: /
       # dribbble: /
       behance: https://www.behance.net/cofess
-      rss: feed.xml
+      rss: atom.xml
     link_tooltip: true # enable the social link tooltip, options: true, false
-  # My Skills 
+  # My Skills
   skills:
     Git: ★★★☆☆
     Gulp: ★★★☆☆
@@ -89,7 +89,7 @@ profile:
   links:
     Github: github.com/WannaYoung
     Blog: blog.cofess.com
-    微博: /weibo.com/cofess
+    微博: weibo.com/cofess
     花瓣: huaban.com/cofess
     Behance: behance.net/cofess
   # My Personal Projects
@@ -103,7 +103,7 @@ layout:
 # Pagination
 pagination:
   number: true
-  prev: 
+  prev:
     alwayShow: true
   next:
     alwayShow: true
@@ -115,22 +115,22 @@ donate:
   image: images/donate/weipay.jpg
   qrcode: images/donate/weipayimg.png
   title: 微信支付
- alipay: 
+ alipay:
   image: images/donate/alipay.jpg
-  qrcode: images/donate/alipayimg.png 
+  qrcode: images/donate/alipayimg.png
   title: 支付宝
 
 # Share
 # weibo,qq,qzone,wechat,tencent,douban,diandian,facebook,twitter,google,linkedin
 share:
   enable: true
-  sites: weibo,qq,wechat,facebook,twitter 
+  sites: weibo,qq,wechat,facebook,twitter
   mobile_sites: weibo,qq,qzone
 
 # Sidebar
 sidebar: right
 widgets:
-    - board  
+    - board
     - category
     - tag
 #    - tagcloud
@@ -138,7 +138,7 @@ widgets:
     - recent_posts
 
 # Github
-github: 
+github:
   username: WannaYoung
   popular_repos: [gulp-startkit,gulp-startpro]
 
@@ -156,9 +156,9 @@ gitment:
 # Api：
   # https://developers.douban.com/wiki/?title=book_v2 图书
   # https://developers.douban.com/wiki/?title=movie_v2 电影
-# books：  
+# books：
   # https://api.douban.com/v2/book/user/:name/collections?start=0&count=100 个人书单列表
-# movies: 
+# movies:
   # https://api.douban.com/v2/movie/in_theaters 正在上映的电影
   # https://api.douban.com/v2/movie/coming_soon 即将上映的电影
   # https://api.douban.com/v2/movie/subject/:id 单个电影信息
@@ -167,21 +167,21 @@ douban:
   user: wannayoung # 豆瓣用户名
   start: 0 # 从哪一条记录开始
   count: 100 # 获取豆瓣书单数据条数
-  
+
 # PV
 pv:
   busuanzi:
-    enable: true # options: true, false # 不蒜子统计
+    enable: false # options: true, false # 不蒜子统计
   leancloud:
     enable: false # options: true, false # leancloud统计
     app_id: 9XhaAqdAQpx9cRNSRLfgfO0U-gzGzoHsz # leancloud <AppID>
     app_key: yfPEhch9cH6CpTx9cplMeRTh # leancloud <AppKey>
-        
+
 # wordcount
 postCount:
   enable: true
   wordcount: true # options: true, false # 文章字数统计
-  min2read: true # options: true, false # 阅读时长预计         
+  min2read: true # options: true, false # 阅读时长预计
 
 # display widgets at the bottom of index pages (pagination == 2)
 index_widgets:
