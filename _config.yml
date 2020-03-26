@@ -1,23 +1,27 @@
-# Hexo Configuration
-## Docs: https://hexo.io/docs/configuration.html
-## Source: https://github.com/hexojs/hexo/
+#  Hexo配置
+## 文档: https://hexo.io/docs/configuration.html
+## 主题: https://github.com/hexojs/hexo/
 
-# Site
-title: WannaYoung
-subtitle:
-description:
-author: WannaYoung
-language: zh-CN
-timezone: Asia/Shanghai
+# 站点设置
+title: WannaYoung's Blog
+subtitle: ''
+description: ''
+keywords: iOS,Swift
+author: wangyang
+language: en
+timezone: 'Asia/Shanghai'
 
-# URL
-## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://blog.wannayoung.top
+#  链接设置
+## 设置子域名，请在root字段后添加子域名
+url: http://wannayoung.cn
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
+pretty_urls:
+  trailing_index: true
+  trailing_html: true
 
-# Directory
+# 路径设置
 source_dir: source
 public_dir: public
 tag_dir: tags
@@ -27,11 +31,14 @@ code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
 
-# Writing
-new_post_name: :title.md # File name of new posts
+# 文章设置
+new_post_name: :title.md
 default_layout: post
-titlecase: false # Transform title into titlecase
-external_link: true # Open external links in new tab
+titlecase: false
+external_link:
+  enable: true
+  field: site
+  exclude: ''
 filename_case: 0
 render_drafts: false
 post_asset_folder: false
@@ -41,57 +48,46 @@ highlight:
   enable: true
   line_number: true
   auto_detect: false
-  tab_replace:
+  tab_replace: ''
+  wrap: true
+  hljs: false
 
-# Home page setting
-# path: Root path for your blogs index page. (default = '')
-# per_page: Posts displayed per page. (0 = disable pagination)
-# order_by: Posts order. (Order by date descending by default)
+# 主页设置
 index_generator:
   path: ''
   per_page: 10
   order_by: -date
 
-# Category & Tag
+# 分类和标签
 default_category: uncategorized
 category_map:
 tag_map:
 
-# Date / Time format
-## Hexo uses Moment.js to parse and display date
-## You can customize the date format as defined in
-## http://momentjs.com/docs/#/displaying/format/
+# Metadata
+meta_generator: true
+
+# 时间日期格式
 date_format: YYYY-MM-DD
 time_format: HH:mm:ss
+use_date_for_updated: false
 
-# Pagination
-## Set per_page to 0 to disable pagination
+#  分页设置
+## 设置为0禁用分页
 per_page: 10
 pagination_dir: page
 
-# Extensions
-## Plugins: https://hexo.io/plugins/
-## Themes: https://hexo.io/themes/
-theme: pure
+#  包含和排除
+## 仅对source目录文件有效
+include:
+exclude:
+ignore:
 
-plugin:
-- hexo-generator-feed
-#Feed Atom
-feed:
-type: atom
-path: atom.xml
-limit: 20
+#  扩展
+## 插件: https://hexo.io/plugins/
+## 主题: https://hexo.io/themes/
+theme: geek
 
-# Deployment
-## Docs: https://hexo.io/docs/deployment.html
+#  部署
+## 文档: https://hexo.io/docs/deployment.html
 deploy:
-  #type: git
-  #repo: http://github.com/dandan52111314/dandan52111314.github.io.git
-  #branch: master
-  type: sftp
-  host: 67.216.223.200
-  user: root
-  privateKey: /Users/yang/Desktop/Hexo/key
-  passphrase: "741113"
-  remotePath: /var/www/blog
-  port: 28957
+  type: ''
