@@ -12,7 +12,7 @@ timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://wannayoung.cn
+url: https://blog.wannayoung.cn
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -80,7 +80,7 @@ deploy:
   type: sftp
   host: 67.216.223.117
   user: root
-  privateKey: /Users/yang/Downloads/iOS/SSH_KEY/key
+  privateKey: /Users/yang/.ssh/id_rsa
   passphrase: "741113"
-  remotePath: /usr/share/nginx/html
+  remotePath: /usr/share/nginx/wannayoung.cn/blog
   port: 28957

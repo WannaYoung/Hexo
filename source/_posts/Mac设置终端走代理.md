@@ -36,12 +36,13 @@ date: 2019-12-25 17:55:24
   在文件末尾添加以下代码
 
   ```javascript
-  function proxy_on(){
+  function proxy_on() {
       export http_proxy=http://127.0.0.1:1087
       export https_proxy=http://127.0.0.1:1087
       echo -e "已开启代理"
   }
-  function proxy_off(){
+  
+  function proxy_off() {
       unset http_proxy
       unset https_proxy
       echo -e "已关闭代理"
