@@ -14,7 +14,7 @@ timezone: Asia/Shanghai
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: https://blog.wannayoung.cn
 root: /
-permalink: :year/:month/:day/:title/
+permalink: :title/
 permalink_defaults:
 
 # Directory
@@ -71,16 +71,46 @@ pagination_dir: page
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/
+toc:
+  maxDepth: 5
+
+plugin:
+- hexo-generator-feed
+- hexo-generator-sitemap
+
+#Feed Atom
+feed:
+type: atom
+path: atom.xml
+limit: 20
+
+baidusitemap:
+  path: baidusitemap.xml
+sitemap:
+  path: sitemap.xml
+
+baidu_url_submit:
+  count: 10
+  host: https://blog.wannayoung.cn
+  token: b7gJjsTGfvsTXYP9
+  path: baidu_urls.txt
+
+marked:
+  lazyAttr: data-echo
+  blankSrc: https://loading.io/mod/spinner/spinner/sample.gif
+
 ## Themes: https://hexo.io/themes/
 theme: geek
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: sftp
-  host: 67.216.223.117
-  user: root
-  privateKey: /Users/yang/.ssh/id_rsa
-  passphrase: "741113"
-  remotePath: /usr/share/nginx/wannayoung.cn/blog
-  port: 28957
+  - type: sftp
+    host: 67.216.223.117
+    user: root
+    privateKey: /Users/yang/.ssh/id_rsa
+    passphrase: "741113"
+    remotePath: /usr/share/nginx/wannayoung.cn/blog
+    port: 28957
+
+  - type: baidu_url_submitter
