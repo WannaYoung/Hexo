@@ -1,5 +1,5 @@
 ---
-title: 在Flutter中使用 WebView
+title: 在Flutter中使用WebView
 date: 2020-04-15 16:38:11
 ---
 
@@ -68,7 +68,7 @@ onPressed: () {
 
 #### 设置 iOS 支持 http
 
-在  iOS 模块的 Runner 中的 ***info.plist*** 文件中添加如下字段：
+在  iOS 模块的 `Runner` 中的 ***info.plist*** 文件中添加如下字段：
 
 ```xml
 <key>NSAppTransportSecurity</key>

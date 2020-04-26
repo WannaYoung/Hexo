@@ -1,7 +1,11 @@
 ---
-title: Flutter 学习重点记录
+title: Flutter学习重点记录
 date: 2020-04-15 19:03:32
 ---
+
+> Flutter 中的重点知识和报错解决记录
+
+<!-- toc -->
 
 ### 知识点
 
@@ -20,7 +24,15 @@ date: 2020-04-15 19:03:32
 
 2. #### 页面跳转隐藏左上角返回按钮
 
-   使用 Navigator.pushReplacement 替换 Navigator.push
+   ```dart
+   // 使用 Navigator.pushReplacement 替换 Navigator.push
+   Navigator.pushReplacement(
+   	context, 
+   	MaterialPageRoute(
+   		builder: (context) => YourPage(),
+   	)
+   );
+   ```
 
 ### 错误解决
 
@@ -31,8 +43,20 @@ date: 2020-04-15 19:03:32
    ```dart
    // 调用 setState 方法前添加 !mounted 判断
    if (!mounted) return;
-   
    setState(() {
    	//Your code
    });
    ```
+   
+2. #### setState() or markNeedsBuild called during build
+
+   报错原因是手势方法调用错误，直接调用了 doSomething()
+
+   ```dart
+   // 修改为 onTap: () => doSomething()
+   GestureDetector(
+   	onTap: onTap: () => doSomething(), 
+   	child: Text("helllo")
+   )
+   ```
+
