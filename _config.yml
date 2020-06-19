@@ -1,7 +1,3 @@
-# Hexo Configuration
-## Docs: https://hexo.io/docs/configuration.html
-## Source: https://github.com/hexojs/hexo/
-
 # Site
 title: WannaYoung
 subtitle:
@@ -11,7 +7,6 @@ language: zh-CN
 timezone: Asia/Shanghai
 
 # URL
-## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: https://blog.wannayoung.cn
 root: /
 permalink: :title/
@@ -25,7 +20,7 @@ archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
-skip_render:
+skip_render: ['baidu_verify_0ek0txJtPi.html', 'google5273b2adcd968402.html', 'sitemap.xml']
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -44,9 +39,6 @@ highlight:
   tab_replace:
 
 # Home page setting
-# path: Root path for your blogs index page. (default = '')
-# per_page: Posts displayed per page. (0 = disable pagination)
-# order_by: Posts order. (Order by date descending by default)
 index_generator:
   path: ''
   per_page: 10
@@ -58,32 +50,34 @@ category_map:
 tag_map:
 
 # Date / Time format
-## Hexo uses Moment.js to parse and display date
-## You can customize the date format as defined in
-## http://momentjs.com/docs/#/displaying/format/
 date_format: YYYY-MM-DD
 time_format: HH:mm:ss
 
 # Pagination
-## Set per_page to 0 to disable pagination
 per_page: 10
 pagination_dir: page
 
-# Extensions
-## Plugins: https://hexo.io/plugins/
-toc:
-  maxDepth: 5
+# Theme
+theme: oranges
 
+# Deploy
+deploy:
+  - type: sftp
+    host: 67.216.223.117
+    user: root
+    privateKey: /Users/yang/.ssh/id_rsa
+    passphrase: "741113"
+    remotePath: /usr/share/nginx/wannayoung.cn/blog
+    port: 28957
+
+  - type: baidu_url_submitter
+
+# Plugins
 plugin:
 - hexo-generator-feed
 - hexo-generator-sitemap
 
-#Feed Atom
-feed:
-type: atom
-path: atom.xml
-limit: 20
-
+# BaiduSitemap
 baidusitemap:
   path: baidusitemap.xml
 sitemap:
@@ -95,22 +89,8 @@ baidu_url_submit:
   token: b7gJjsTGfvsTXYP9
   path: baidu_urls.txt
 
-marked:
-  lazyAttr: data-echo
-  blankSrc: https://loading.io/mod/spinner/spinner/sample.gif
-
-## Themes: https://hexo.io/themes/
-theme: geek
-
-# Deployment
-## Docs: https://hexo.io/docs/deployment.html
-deploy:
-  - type: sftp
-    host: 67.216.223.117
-    user: root
-    privateKey: /Users/yang/.ssh/id_rsa
-    passphrase: "741113"
-    remotePath: /usr/share/nginx/wannayoung.cn/blog
-    port: 28957
-
-  - type: baidu_url_submitter
+#Feed Atom
+feed:
+type: atom
+path: atom.xml
+limit: 20

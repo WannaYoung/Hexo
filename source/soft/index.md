@@ -20,14 +20,3 @@ date: 2020-03-26 17:42:09
 | ![Retrobatch](https://i.loli.net/2020/03/31/UVMJBX4wPLaHOIA.png) | **Retrobatch**   | Retrobatch 能够帮助用户批量添加图片水印以及剪辑，调色和滤镜等等图片批量操作处理，可以说是提高生产力的利器。 |
 
 ## Windows软件
-
-| 软件图标                                                     | 软件名称      | 软件介绍                                                     |
-| :----------------------------------------------------------- | :------------ | ------------------------------------------------------------ |
-| ![musicbee](https://i.loli.net/2020/04/03/7dBgcxHqo3nAZOC.png) | **MusicBee**  | MusicBee 是一款优秀的音乐管理与收藏软件，相较其他音乐播放器 foobar2000 等，它拥有对庞大音乐库的强大组织和管理能力 |
-| ![potplayer](https://i.loli.net/2020/04/03/wkI6JvFSxWV3QjB.png) | **PotPlayer** | PotPlayer 是 KMPlayer 的作者进入 Daum 公司后的新一代网络播放器。PotPlayer 的优势在于强大的内置解码器，而 KMPlayer 的优势在于强大的定制能力和个性化功能。 |
-| ![faststone](https://i.loli.net/2020/04/03/5QXHLRvOzSqI6My.png) | **FastStone** | FastStone Image Viewer是一款免费的图像浏览，转换和编辑工具。体积虽小，但却支持几乎所有主流的图形格式，其直观的布局和命令也会使所有人都感到易于使用。 |
-| ![dism](https://i.loli.net/2020/04/03/o2MkAtrSbGacIdw.png)   | **Dism++**    | Dism++可以说是一个Dism的GUI版，但是并不依赖Dism，直接基于更底层的CBS（Component Based Servicing Reference）。 |
-| ![512x512bb](https://i.loli.net/2020/04/03/JmbpjGK3Pt9rZLD.png) | **Bandizip**  | 集 压缩/解压缩/浏览/编辑 为一体的压缩包管理器，可以提取包括 RAR/RAR5/7Z/ZIP 在内的 30 多种格式。 |
-| ![mobaxterm](https://i.loli.net/2020/04/03/8CEyNqLw6XaTjdV.png) | **MobaXterm** | MobaXterm 是一款远程计算控制的工具。这款软件提供了大量功能，这些功能是为程序员、网站管理员、IT管理员以及需要以更简单的方式处理远程作业的用户量身定制的。 |
-| ![Paw](https://i.loli.net/2020/04/03/9fTxpRSZhPI1abJ.png)    | **火绒安全**  | 简单易用，一键安装，大众用户即可获得安全防护。编写规则，分析病毒，电脑极客也能玩转其中。 |
-

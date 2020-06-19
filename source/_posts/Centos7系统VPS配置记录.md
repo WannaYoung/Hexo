@@ -1,5 +1,9 @@
 ---
 title: Centos7系统VPS配置记录
+categories:
+  - 技巧
+tags:
+  - VPS
 date: 2020-03-29 20:25:12
 ---
 

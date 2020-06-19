@@ -3,7 +3,7 @@ title: Create ML 自建数据集实现物体侦测
 categories:
   - 机器学习
 tags:
-  - iOS
+  - Create ML
 date: 2020-06-16 17:12:35
 ---
 
@@ -65,3 +65,6 @@ Create ML 可以与 Swift 和 macOS Playground 等您所熟悉的工具搭配使
 5. ##### 导出模型并集成进 iOS 应用
 
    
+
+   
+

@@ -1,5 +1,9 @@
 ---
 title: Mac设置终端走代理
+categories:
+  - 技巧
+tags:
+  - Mac
 date: 2019-05-25 17:55:24
 ---
 

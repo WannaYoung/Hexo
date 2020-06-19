@@ -1,0 +1,52 @@
+<!-- 归档页，展示本站所有文章，按照年份降序归类，url形式：https://yoursite/archives/ -->
+
+<!-- last: 按年份把文章分组，当前遍历到的年份 -->
+<!-- now: 当前遍历到的文章的发布年份 -->
+
+<div class="container archives">
+  <div class="post-list">
+    <%
+      var last = null;
+      var now = null;
+    %>
+    <%
+      site.posts.sort('date', -1).each(function(item, index) {
+    %>
+      <%
+        if (index === 0) {
+          last = item.date.year();
+      %>
+        <!-- 第一篇文章的发布年份呈现 -->
+        <div class="content-title">
+          <h2>
+            <span><%- last %></span>
+          </h2>
+        </div>
+      <%
+        }
+        now = item.date.year();
+        if (now !== last) {
+          last = now;
+      %>
+        <!-- 后续文章的发布年份呈现 -->
+        <div class="content-title">
+          <h2>
+            <span><%- now %></span>
+          </h2>
+        </div>
+      <%
+        }
+      %>
+      <div class="post-item" title="<%- item.title %>">
+        <div class="title">
+          <a href="<%- url_for(item.path) %>">
+            <span><%- item.title %></span>
+          </a>
+        </div>
+        <div class="time-m-d"><%- item.date.format("MM-DD") %></div>
+      </div>
+    <%
+      });
+    %>
+  </div>
+</div>

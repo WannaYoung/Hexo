@@ -1,0 +1,101 @@
+# 网站图标
+favicon:
+  enable: true
+  icon: /images/favicon.ico
+  touch_icon: /images/favicon.ico
+
+# 用户头像与昵称
+avatar:
+  author_photo: /images/avatar.png
+  author_nickname: WannaYoung
+
+# 谷歌分析
+gtag:
+  enable: false
+  gtagkey: UA-xxxxxxx-x
+
+# 文章评论系统
+comments:
+  enable: true
+
+  gitalk:
+    enable: false
+
+  valine:
+    enable: true
+    appId: EsjB0IljIqxRoDlvBL0tEQaU-gzGzoHsz
+    appKey: jxkFp5G2GF0GykN6miPGTskw
+    placeholder: 请尽情评论吧！
+    avatar: retro
+    vempty_display: false
+
+  disqus:
+    enable: false
+    shortname: zxcxxxx
+
+# 主题页面导航栏
+navbar:
+  -
+    name: 首页
+    enable: true
+    path: /
+  -
+    name: 归档
+    enable: true
+    path: /archives/
+  -
+    name: 分类
+    enable: true
+    path: /categories/
+  -
+    name: 标签
+    enable: true
+    path: /tags/
+  -
+    name: 友链
+    enable: true
+    path: /links/
+  -
+    name: 软件
+    enable: true
+    path: /soft/
+  -
+    name: 关于
+    enable: true
+    path: /about/
+
+# 文章目录
+catalog:
+  enable: true
+
+# 文章末尾的上一页与下一页
+prevnext:
+  enable: true
+
+# 友链详细信息：支持多个友链
+friends:
+  -
+    nickname: Hexo
+    site: https://hexo.io/
+    meta: Hexo官网
+
+# 页脚信息
+footer:
+  social:
+    -
+      name: github
+      icon: github
+      path: https://github.com/WannaYoung
+    -
+      name: email
+      icon: envelope
+      path: wannayoung@163.com
+    -
+      name: rss
+      icon: rss
+      path: atom.xml
+
+  more:
+    -
+      name: Copyright © Oranges 2020
+      path: https://github.com/zchengsite/hexo-theme-oranges

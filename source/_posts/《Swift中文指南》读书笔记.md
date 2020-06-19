@@ -1,9 +1,11 @@
 ---
 title: 《Swift中文指南》读书笔记
+categories:
+  - iOS
+tags:
+  - Swift
 date: 2019-06-16 17:23:18
 ---
-
-<!-- toc -->
 
 ## 关于Swift
 

@@ -1,5 +1,9 @@
 ---
 title: PT站点备忘
+categories:
+  - 其他
+tags:
+  - PT
 date: 2019-03-23 17:34:12
 ---
 

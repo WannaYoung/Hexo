@@ -1,5 +1,9 @@
 ---
 title: 使用Mac自带脚本一键部署Hexo
+categories:
+  - 技巧
+tags:
+  - Hexo
 date: 2020-03-27 11:19:55
 ---
 

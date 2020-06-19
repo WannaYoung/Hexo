@@ -1,9 +1,9 @@
 ---
 title: Mac显示隐藏文件的两种方式
 categories:
-  - Mac
-tags:
   - 技巧
+tags:
+  - Mac
 date: 2020-05-12 10:32:11
 ---
 

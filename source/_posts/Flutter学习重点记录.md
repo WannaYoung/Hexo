@@ -1,11 +1,13 @@
 ---
 title: Flutter学习重点记录
+categories:
+  - 前端
+tags:
+  - Flutter
 date: 2020-04-15 19:03:32
 ---
 
 > Flutter 中的重点知识和报错解决记录
-
-<!-- toc -->
 
 ### 知识点
 
