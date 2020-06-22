@@ -5,7 +5,7 @@ categories:
 tags:
   - flutter
   - bloc
-abbrlink: 34577
+abbrlink: '8711'
 date: 2020-05-06 11:31:18
 ---
 

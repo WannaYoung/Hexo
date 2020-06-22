@@ -33,16 +33,13 @@ date: 2020-03-26 17:43:20
 
 > 工具
 
+- [MacWk](https://macwk.com/) 精品 Mac 应用
 - [Xclient](https://xclient.info/) Mac 软件学习版
+- [果核剥壳](https://www.ghpym.com/) 还原软件的本质
+- [果核音乐](https://music.ghpym.com/) 音乐下载神器
 - [Shortcuts](https://shortcuts.sspai.com/) 少数派捷径大全
-- [Carbon](https://carbon.now.sh/) 导出漂亮的代码截图
+- [Carbon](https://carbon.now.sh/) 导出漂亮的代码
 - [装备前线](https://www.zfrontier.com/) 各种高大上的外设
 
-> PT 大站
+> Kindle 电子书
 
-- [HDSky](https://hdsky.me/) 天空
-- [MTeam](https://pt.m-team.cc/) 馒头
-- [CHDBits](https://chdbits.co/) 彩虹岛
-- [HDChina](https://hdchina.org/) 瓷器
-- [ToTheGlory](https://totheglory.im/) 套套哥
-- [SpringSunday](https://springsunday.net/) 固态硬盘

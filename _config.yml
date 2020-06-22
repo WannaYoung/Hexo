@@ -9,7 +9,7 @@ timezone: Asia/Shanghai
 # URL
 url: https://blog.wannayoung.cn
 root: /
-permalink: :title/
+permalink: posts/:abbrlink.html 
 permalink_defaults:
 
 # Directory
@@ -94,3 +94,8 @@ feed:
 type: atom
 path: atom.xml
 limit: 20
+
+# abbrlink config
+abbrlink:
+  alg: crc16
+  rep: dec

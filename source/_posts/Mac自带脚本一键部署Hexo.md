@@ -4,7 +4,7 @@ categories:
   - 技巧
 tags:
   - Hexo
-abbrlink: 41621
+abbrlink: a295
 date: 2020-03-27 11:19:55
 ---
 
