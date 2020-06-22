@@ -633,11 +633,11 @@
 }
 
 .markdown-body table tr:nth-child(2n) {
-  background-color: #fff;
+  background-color: #f6f8fa;
 }
 
 .markdown-body img {
-  max-width: 90%;
+  max-width: 98%;
   display: block;
   margin: 0 auto;
   box-sizing: content-box;
@@ -645,11 +645,11 @@
 }
 
 .markdown-body img[align="right"] {
-  padding-left: 20px;
+  padding-left: 10px;
 }
 
 .markdown-body img[align="left"] {
-  padding-right: 20px;
+  padding-right: 10px;
 }
 
 .markdown-body code {

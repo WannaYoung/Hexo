@@ -89,7 +89,7 @@ footer:
     -
       name: email
       icon: envelope
-      path: wannayoung@163.com
+      path: mailto:wannayoung@163.com
     -
       name: rss
       icon: rss

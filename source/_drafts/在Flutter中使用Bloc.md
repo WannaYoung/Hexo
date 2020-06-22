@@ -1,10 +1,11 @@
 ---
 title: 在Flutter中使用Bloc
-date: 2020-05-06 11:31:18
 categories:
-- flutter
+  - flutter
 tags:
-- flutter
-- bloc
+  - flutter
+  - bloc
+abbrlink: 34577
+date: 2020-05-06 11:31:18
 ---
 

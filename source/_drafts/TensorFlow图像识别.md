@@ -1,10 +1,11 @@
 ---
 title: TensorFlow图像识别
-date: 2020-05-18 10:30:15
 categories:
-- 机器学习
+  - 机器学习
 tags:
-- TensorFlow
+  - TensorFlow
+abbrlink: 52050
+date: 2020-05-18 10:30:15
 ---
 
 准备图片数据
